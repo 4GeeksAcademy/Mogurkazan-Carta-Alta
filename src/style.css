@@ -9,7 +9,9 @@ body {
   height: 500px;
 }
 .deck1 {
-  background-color: blue;
+  background-color: whitesmoke;
+  border-radius: 20px;
+  box-shadow: 10px 10px brown;
   width: 200px;
   height: 300px;
 }
