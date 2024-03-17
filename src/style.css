@@ -13,3 +13,17 @@ body {
   width: 200px;
   height: 300px;
 }
+.iconBottom,
+.iconBottom2 {
+  transform: scaleY(-1);
+}
+.iconTop,
+.iconTop2,
+.iconBottom,
+.iconBottom2 {
+  font-size: 40px;
+}
+.number,
+.number2 {
+  font-size: 80px;
+}

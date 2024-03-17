@@ -33,9 +33,27 @@ window.onload = function() {
   function generateRandomNumber(array) {
     return array[Math.floor(Math.random() * array.length)];
   }
+  const randomNumber = document.querySelector(".number");
+  const randomSuitTop = document.querySelector(".iconTop");
+  const randomSuitBottom = document.querySelector(".iconBottom");
+  //
+  const randomNumber2 = document.querySelector(".number2");
+  const randomSuitTop2 = document.querySelector(".iconTop2");
+  const randomSuitBottom2 = document.querySelector(".iconBottom2");
+  //
+  const cardRandomNumber = generateRandomNumber(cardNumber);
+  const cardRandomSuits = generateRandomNumber(deckSuits);
+  const cardRandomNumber2 = generateRandomNumber(cardNumber);
+  const cardRandomSuits2 = generateRandomNumber(deckSuits);
+  //
+  randomNumber.textContent = cardRandomNumber;
+  randomSuitTop.innerHTML = cardRandomSuits;
+  randomSuitBottom.innerHTML = cardRandomSuits;
+  //
+  randomNumber2.textContent = cardRandomNumber2;
+  randomSuitTop2.innerHTML = cardRandomSuits2;
+  randomSuitBottom2.innerHTML = cardRandomSuits2;
 
-  //
-  //
   //
   //
   //
