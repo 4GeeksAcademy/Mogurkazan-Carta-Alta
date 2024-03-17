@@ -1,1 +1,15 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+body {
+  background-color: green;
+}
+.mat1 {
+  border: 1px solid black;
+}
+.gameRow {
+  height: 500px;
+}
+.deck1 {
+  background-color: blue;
+  width: 200px;
+  height: 300px;
+}
